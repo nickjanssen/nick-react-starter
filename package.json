@@ -4,7 +4,7 @@
   "description": "Run `npm install`.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --content-base ./static --hot --history-api-fallback",
+    "start": "webpack-dev-server --host 0.0.0.0 --content-base ./static --hot --history-api-fallback",
     "build": "cp -r static/* dist/ && webpack",
     "test": "node ./node_modules/ava/cli.js  --require 'babel-register'"
   },
