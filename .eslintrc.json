@@ -47,5 +47,8 @@
       "jsx": true
     },
     "sourceType": "module"
+  },
+  "globals": {
+    "THREE": false
   }
 }
